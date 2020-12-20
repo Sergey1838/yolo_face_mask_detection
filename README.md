@@ -1,4 +1,8 @@
 # yolo face mask detection
+
+![Alt Text](https://github.com/Sergey1838/yolo_face_mask_detection/blob/master/1.gif)
+
+
 <a href='https://www.kaggle.com/andrewmvd/face-mask-detection' target="_blank">dataset link</a>
 
 1. Run dataset/dataset_transformation.py --img <image_size>, by default image size will be 400x400 pixels.
