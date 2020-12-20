@@ -1,5 +1,7 @@
 # yolo face mask detection
 
+### Alert: from web camera it works smooth, gif is lagging
+
 ![Alt Text](https://github.com/Sergey1838/yolo_face_mask_detection/blob/master/1.gif)
 
 
