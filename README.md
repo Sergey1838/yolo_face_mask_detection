@@ -1,13 +1,13 @@
 # yolo face mask detection
 <a href='https://www.kaggle.com/andrewmvd/face-mask-detection' target="_blank">dataset link</a>
 
-1. Run dataset_transformation.py --img <image_size>, by default image size will be 400x400 pixels.
+1. Run dataset/dataset_transformation.py --img <image_size>, by default image size will be 400x400 pixels.
 
 This file will resize all images to specific dimensions and change initial xml annotations so they match new images
 
 2. git clone https://github.com/ultralytics/yolov5 to root directory
 3. run "pip install -r requirements.txt" from yolov5 directory
-4. Run yolo_format_data.py
+4. Run dataset/yolo_format_data.py
 
 This script will:
  - split images to train,test and validation
@@ -22,3 +22,7 @@ This script will:
 --weights are pretrained weights, you also can run it with randomly initialized --weights ''
 
 For more details about yolov5, check out their [repository](https://github.com/ultralytics/yolov5)
+
+## To try trained model:
+
+Run: "python detect.py --source 0 --weights best.pt" from trained directory. source 0 is web camera
