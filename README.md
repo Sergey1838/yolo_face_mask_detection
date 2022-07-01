@@ -2,7 +2,7 @@
 
 ### Alert: from web camera it works smooth, gif is lagging
 
-![Alt Text](https://github.com/Sergey1838/yolo_face_mask_detection/blob/master/1.gif)
+![Alt Text](https://github.com/Sergey1838/yolo_face_mask_detection/blob/master/2.gif)
 
 
 <a href='https://www.kaggle.com/andrewmvd/face-mask-detection' target="_blank">dataset link</a>
